@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: antiquewhite
+}
+
+select{
+  text-align: center;
+  border-radius: 4px;
+  width: 75%;
+  border: none;
+  margin: 10%;
+  padding: 5px;
+  font-size: 16px;
+  background: white;
+};
+
+.cabeza{
+    margin: 20%;
+    text-align: center;
+    font-size: 25px;
+    background: #24303c;
+    color: white;
+    text-align: center;
+    padding: auto;
+}
+
+
+.mostrarImg{
+  margin-top: 10px;
+  width: 200px;
+}
+
+select, option{
+  text-align: center;
+  border-radius: 4px;
+  width: 75%;
+  border: none;
+  margin: 10%;
+  padding: 5px;
+  font-size: 16px;
+  background: white;
+}
+
+.seleccion {
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    background: #24303c;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 7px 13px 37px black;
+}
+
+h3,h4, table{
+  background: #24303c;
+  font-size: 24px;
+  margin-top: 1px;
+  color: white;
+  text-align: center;
+}
+
+.lista ,th{
+  background: #24303c;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+
+.back{
+  background-color: white;
+}
+
+.boton{
+  border-radius: 4px;
+
+  width: 35%;
+  border: none;
+  margin: 15px;
+  padding: 7px;
+  font-size: 16px;
+  color: white;
+  background: #3f72a5;
+}
+.botonMenor{
+  border-radius: 4px;
+  width: 20%;
+  border: none;
+  margin: 15px;
+  padding: 7px;
+  font-size: 16px;
+  color: white;
+  background: #3f72a5;
+  text-align: center;
+}
+
+.botonAgregar{
+  margin-left: 20px;
+  border-radius: 4px;
+  width: 40%;
+  border: none;
+  margin: 15px;
+  padding: 7px;
+  font-size: 16px;
+  color: white;
+  background: #3f72a5;
+}
+
+.botonEliminar{
+  border-radius: 4px;
+  width: 40%;
+  border: none;
+  margin: 12px;
+  padding: 7px;
+  font-size: 16px;
+  color: white;
+  background: #3f72a5;
+}
