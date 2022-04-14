@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import Filtro from './filtroTipos.jsx';
 import Random from './randomPoke';
-import Bayas from "./buscaBayas.jsx"
+import Bayas from "./buscaBayas.jsx";
+import Moves from "./Move";
+import Game from "./Game";
 import reportWebVitals from './reportWebVitals';
 
 
@@ -13,7 +15,8 @@ ReactDOM.render(
     <Filtro/>
     <Random/>
     <Bayas/>
-
+    <Moves/>
+    <Game/>
   </React.StrictMode>,
   document.getElementById('root')
 );
